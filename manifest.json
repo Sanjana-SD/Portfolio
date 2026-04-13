@@ -1,0 +1,24 @@
+{
+  "short_name": "Sanjana Portfolio",
+  "name": "Sanjana S D — Data Engineer & Full Stack Developer",
+  "description": "Portfolio of Sanjana S D, Data Engineer and Full Stack Developer specializing in Big Data, React, and AI-powered systems.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "sanjana_pic.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1a1a2e",
+  "background_color": "#ffffff",
+  "categories": ["portfolio", "developer"],
+  "lang": "en"
+}
