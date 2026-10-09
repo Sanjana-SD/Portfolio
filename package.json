@@ -2,7 +2,7 @@
   "name": "sanjana-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Sanjana-SD.github.io",
+  "homepage": "https://Sanjana-SD.github.io/Portfolio",
   "main": "index.js",
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.11",
