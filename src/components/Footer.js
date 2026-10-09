@@ -19,6 +19,7 @@ const Footer = () => {
               <li><a className="hover:text-primary transition-colors" href="#experience">Experience</a></li>
               <li><a className="hover:text-primary transition-colors" href="#projects">Projects</a></li>
               <li><a className="hover:text-primary transition-colors" href="#skills">Skills</a></li>
+              <li><a className="hover:text-primary transition-colors" href="#achievements">Achievements</a></li>
             </ul>
           </div>
 
@@ -26,7 +27,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold">Connect</h3>
             <ul className="mt-3 flex items-center gap-4">
               <li>
-                <a className="hover:text-primary transition-colors" href="https://www.linkedin.com/in/sanjana-s-d-1b416329a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a className="hover:text-primary transition-colors" href="https://www.linkedin.com/in/sanjana-s-d/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <FaLinkedin size={20} />
                 </a>
               </li>

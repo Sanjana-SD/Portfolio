@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { ModeToggle } from './theme/mode-toggle';
 import { cn } from '../lib/utils';
-import resumePdf from '../Assets/Sanjana_Resume.pdf';
+import resumePdf from '../Assets/Sanjana_S_D_Resume.pdf';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -52,11 +52,12 @@ const Header = () => {
             <li><a className="hover:text-primary transition-colors" href="#skills" onClick={() => scrollToSection('skills')}>Skills</a></li>
             <li><a className="hover:text-primary transition-colors" href="#education" onClick={() => scrollToSection('education')}>Education</a></li>
             <li><a className="hover:text-primary transition-colors" href="#certifications" onClick={() => scrollToSection('certifications')}>Certifications</a></li>
+            <li><a className="hover:text-primary transition-colors" href="#achievements" onClick={() => scrollToSection('achievements')}>Achievements</a></li>
             <li><a className="hover:text-primary transition-colors" href="#contact" onClick={() => scrollToSection('contact')}>Contact</a></li>
             <li>
               <a 
                 href={resumePdf} 
-                download="Sanjana_SD_Resume.pdf" 
+                download="Sanjana_S_D_Resume.pdf" 
                 className="inline-flex h-9 items-center rounded-md border border-border px-3 text-sm hover:bg-accent hover:text-accent-foreground transition-colors"
               >
                 Resume
@@ -82,11 +83,12 @@ const Header = () => {
               <li><a className="block hover:text-primary" href="#skills" onClick={() => scrollToSection('skills')}>Skills</a></li>
               <li><a className="block hover:text-primary" href="#education" onClick={() => scrollToSection('education')}>Education</a></li>
               <li><a className="block hover:text-primary" href="#certifications" onClick={() => scrollToSection('certifications')}>Certifications</a></li>
+              <li><a className="block hover:text-primary" href="#achievements" onClick={() => scrollToSection('achievements')}>Achievements</a></li>
               <li><a className="block hover:text-primary" href="#contact" onClick={() => scrollToSection('contact')}>Contact</a></li>
               <li>
                 <a 
                   href={resumePdf} 
-                  download="Sanjana_SD_Resume.pdf" 
+                  download="Sanjana_S_D_Resume.pdf" 
                   className="inline-flex h-9 items-center rounded-md border border-border px-3 text-sm hover:bg-accent hover:text-accent-foreground transition-colors"
                 >
                   Resume

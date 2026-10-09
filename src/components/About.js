@@ -141,7 +141,7 @@ const About = () => {
               <motion.img
                 src={profile.image}
                 alt="Sanjana S D"
-                className="w-full h-auto"
+                className="w-full h-auto object-cover object-top rounded-xl"
                 loading="lazy"
                 whileHover={{ scale: 1.02 }}
                 transition={{ duration: 0.3 }}

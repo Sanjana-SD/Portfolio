@@ -37,8 +37,14 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://Sanjana-SD.github.io/#certifications</loc>
-    <lastmod>2026-03-28</lastmod>
+    <loc>https://Sanjana-SD.github.io/Portfolio/#certifications</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://Sanjana-SD.github.io/Portfolio/#achievements</loc>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

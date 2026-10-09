@@ -14,17 +14,17 @@ export const projects = [
     tags: ['Apache Airflow', 'PostgreSQL', 'XGBoost', 'Streamlit', 'Python', 'PostGIS'],
   },
   {
-    title: 'StockSense AI Engine',
-    period: 'March 2026',
+    title: 'GenomeRAG',
+    period: 'July 2026',
     bullets: [
-      'Architected a real-time investment intelligence platform processing multi-source financial data using Kafka, Spark Streaming, and Airflow, enabling continuous data ingestion and analysis.',
-      'Developed and deployed machine learning models (XGBoost, LSTM, FinBERT) with MLflow tracking and FastAPI endpoints for stock prediction, forecasting, and sentiment analysis.',
+      'Engineered an evolutionary memory framework for 500+ autonomous AI agents, optimizing 10 memory genome parameters across 100+ generations using genetic algorithms.',
+      'Improved long-horizon reasoning accuracy by 18–25% and reduced memory retrieval latency by 35% compared with fixed-memory RAG baselines through adaptive memory evolution.',
     ],
     links: {
-      code: 'https://github.com/Sanjana-SD/StockSense',
+      code: 'https://github.com/Sanjana-SD/GenomeRAG',
       demo: null,
     },
-    tags: ['FastAPI', 'PostgreSQL', 'MLflow', 'FinBERT', 'Kafka', 'Spark'],
+    tags: ['LangGraph', 'PyTorch', 'DEAP', 'Qdrant'],
   },
   {
     title: 'Reddit InsightForge',
